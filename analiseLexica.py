@@ -75,7 +75,6 @@ def t_COMMENT (t):
 def t_STRING(t):
     r'\"([^\\]|(\\.))*?\"'
     return t
-
 def t_newLine(t):
     r'\n+'
     t.lexer.lineno += len(t.value)
