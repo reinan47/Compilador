@@ -12,7 +12,7 @@ class visitor_abstract(metaclass=ABCMeta):
         pass
       
     @abstractmethod
-    def visit_secaoNamespaceConcrete(self, secaoNamespaceConcretesecaoUsingConcrete):
+    def visit_secaoNamespaceConcrete(self, secaoNamespaceConcrete):
         pass
 
     @abstractmethod
